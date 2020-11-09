@@ -8,9 +8,14 @@
 
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
-
+/**반복해서 사용할 요소는 components에 집합**/
+@import "components/screen-header.css";
+@import "components/user-component.css";
+/**Screens**/
 @import "screens/login.css";
+@import "screens/friends.css";
 body {
   font-family: "Goldman", cursive;
   height: 1000vh;
+  color: #2e363e;
 }
